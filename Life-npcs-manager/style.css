@@ -1,0 +1,114 @@
+body {
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.interface {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  width: 800px;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid #9face6;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+button {
+  background: #6a5acd;
+  border: none;  
+  padding: 10px 16px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #5848c2;
+}
+
+.controles{
+  margin-top: 10px;
+}
+
+button.btnmais{
+  background-color: green ;
+}
+
+button.btnmais:hover {
+  background: rgb(91, 193, 91)
+}
+
+button.btnmenos{
+  background-color: rgb(128, 0, 0) ;
+}
+
+button.btnmenos:hover {
+  background: rgb(193, 91, 91)
+}
+
+button.remove{
+  background-color: rgb(164, 10, 10) ;
+}
+
+button.remove:hover {
+  background: rgb(193, 91, 91)
+}
+
+
+/* Personagens */
+.personagem {
+  background: #f1f1f1;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.personagem img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover; /*O que é isso?*/
+}
+
+.info {
+  flex: 1;
+}
+
+.barra-vida {
+  height: 20px;
+  background: #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.barra {
+  height: 100%;
+  background: #4caf50;
+  width: 100%;
+  transition: width 0.3s;
+}
+
+.controles {
+  display: flex;
+  gap: 5px;
+}
